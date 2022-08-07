@@ -1,7 +1,6 @@
 package com.github.ernanesousa.algalogapi.domain.model;
 
 import lombok.*;
-
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
@@ -29,6 +28,7 @@ public class Cliente {
 
     @NotBlank
     @Size(max = 20)
+    @Column(name = "fone")
     private String telefone;
 
 }

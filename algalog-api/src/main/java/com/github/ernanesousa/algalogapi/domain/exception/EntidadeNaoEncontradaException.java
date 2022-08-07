@@ -1,10 +1,10 @@
 package com.github.ernanesousa.algalogapi.domain.exception;
 
-public class NegocioException extends RuntimeException{
+public class EntidadeNaoEncontradaException extends NegocioException{
 
     private static final long serialVersionUID = 1L;
 
-    public NegocioException(String message) {
+    public EntidadeNaoEncontradaException(String message) {
         super(message);
     }
 }
